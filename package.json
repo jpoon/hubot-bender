@@ -11,11 +11,13 @@
     "coffee-script": "^1.9.3",
     "hubot": "^2.13.1",
     "hubot-azure-scripts": "^0.1.6",
+    "hubot-business-cat": "^1.2.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
     "hubot-maps": "0.0.2",
+    "hubot-plusplus": "^1.1.5",
     "hubot-scripts": "^2.16.1",
     "hubot-slack": "^3.3.0"
   },

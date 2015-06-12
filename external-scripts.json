@@ -2,6 +2,8 @@
   "hubot-azure-scripts/brain/storage-blob-brain",
   "hubot-diagnostics",
   "hubot-help",
+  "hubot-plusplus",
+  "hubot-business-cat",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-maps"
