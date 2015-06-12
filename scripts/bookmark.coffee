@@ -17,10 +17,10 @@ module.exports = (robot) ->
     url = msg.match[1]
     description = msg.match[2]
 
-    urlPattern = /// ^          # begin of line
-       (https?:\/\/)?           # optional http/https
-       ([\w-]+(\.[\w-]+)+\.?)   # domain name with at least two components, allow trailing dot
-       $ ///i                   # end of line and ignore case
+    urlPattern = /// ^                      # begin of line
+       (http(s)?:\/\/)?                     # optional http/https
+       ([\w-]+\.)+[\w-]+(/[\w-;,./?%&=]*)?  # domain name with at least two components, allow trailing dot
+       $ ///i                               # end of line and ignore case
 
     match = url.match urlPattern
     if !url.match urlPattern
