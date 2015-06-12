@@ -19,12 +19,12 @@ module.exports = (robot) ->
 
     urlPattern = /// ^                      # begin of line
        (http(s)?:\/\/)?                     # optional http/https
-       ([\w-]+\.)+[\w-]+(/[\w-;,./?%&=]*)?  # domain name with at least two components, allow trailing dot
+       ([\w-]+\.)+[\w-]+(/[\w-;,./?{}%&=]*)?  # domain name with at least two components, allow trailing dot
        $ ///i                               # end of line and ignore case
 
     match = url.match urlPattern
     if !url.match urlPattern
-      msg.reply "Is that a valid URL? Should be something like 'domain.tld'."
+      msg.reply "Is that even a URL?"
     else
       link = new Link url, description
       bookmark = new Bookmark robot
