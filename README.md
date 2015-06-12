@@ -25,13 +25,13 @@ You can start hubot-bender locally by running:
 You'll see some start up output and a prompt:
 
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
-    hubot-bender>
+    bender>
 
 Then you can interact with hubot-bender by typing `hubot-bender help`.
 
-    hubot-bender> hubot-bender help
-    hubot-bender animate me <query> - The same thing as `image me`, except adds [snip]
-    hubot-bender help - Displays all of the help commands that hubot-bender knows about.
+    bender> bender help
+    bender animate me <query> - The same thing as `image me`, except adds [snip]
+    bender help - Displays all of the help commands that bender knows about.
     ...
 
 ### Configuration
