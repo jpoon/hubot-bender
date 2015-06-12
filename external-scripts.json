@@ -1,6 +1,6 @@
 [
-  "hubot-diagnostics",
   "hubot-azure-scripts/brain/storage-blob-brain",
+  "hubot-diagnostics",
   "hubot-help",
   "hubot-google-images",
   "hubot-google-translate",
