@@ -69,15 +69,11 @@ class Link
     @description = description
 
 class Bookmark
-  constructor: (robot) ->
-    robot.brain.data.links ?= []
-    @links_ = robot.brain.data.links
+  constructor: (@robot) ->
+    @robot.brain.data.links ?= []
 
-  all: (bookmark) ->
-    if bookmark
-      @links_.push bookmark
-    else
-      @links_
+  all: ->
+    @robot.brain.data.links
 
   add: (link, callback) ->
     result = []
@@ -88,7 +84,7 @@ class Bookmark
     if result.length > 0
       callback "Link already exists"
     else
-      @all link
+      @robot.brain.data.links.push link
       callback null, "Link added"    
 
   list: (callback) ->
