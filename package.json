@@ -5,7 +5,8 @@
   "author": "Jason <github@jasonpoon.ca>",
   "description": "A simple helpful robot for your Company",
   "scripts": {
-    "start": "bash bin/hubot"
+    "start": "node server.js",
+    "hubot": "bash ./bin/hubot"
   },
   "dependencies": {
     "coffee-script": "^1.9.3",
