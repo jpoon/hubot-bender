@@ -5,7 +5,6 @@
 #   hubot bookmark add <url> as <description> - add a url to the robot brain
 #   hubot bookmark find <description> - find a link by description
 #   hubot bookmark list - List all of the links that are being tracked
-#   hubot bookmark delete <description> - delete a link by description
 #
 # Authors:
 #   Jason Poon <github@jasonpoon.ca>
