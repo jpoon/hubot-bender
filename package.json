@@ -11,6 +11,7 @@
     "coffee-script": "^1.9.3",
     "hubot": "^2.13.1",
     "hubot-azure-scripts": "^0.1.6",
+    "hubot-bookmark": "0.0.1",
     "hubot-business-cat": "^1.2.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
