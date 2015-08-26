@@ -135,7 +135,7 @@ repo.
 
 ##  Persistence
 
-If you are going to use the `[hubot-azure-scripts][hubot-azure-scripts]` package (strongly suggested),
+If you are going to use the [hubot-azure-scripts][hubot-azure-scripts] package (strongly suggested),
 you will need to create an Azure Storage instance and configure the 
 `HUBOT_BRAIN_AZURE_STORAGE_ACCOUNT`, `HUBOT_BRAIN_AZURE_STORAGE_ACCESS_KEY`, and
 `HUBOT_BRAIN_AZURE_STORAGE_CONTAINER` environment variables.
